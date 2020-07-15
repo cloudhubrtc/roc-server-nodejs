@@ -14,9 +14,7 @@ class Client {
         let encodeStr = md5(md5(bodyStr) + md5(this._secretKey))
         let token = {
             token: encodeStr,
-            timestamp: expireTime,
-            'useraccount': 'reserve',
-            'role': 'reserve'
+            timestamp: expireTime
         }
         let tokenBase64 = Buffer.from(JSON.stringify(token)).toString('base64')
         let randomStr = tokenBase64.substr(0, 16).split('').sort(() => {
