@@ -1,4 +1,4 @@
-const Client = require('./cor/Client.js')
+const Client = require('./roc/Client.js')
 
 let authKey = 'Wbyk*****Q8pwd3'
 let secretKey = '234****3sdfsfs'
