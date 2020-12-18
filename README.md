@@ -6,7 +6,7 @@
 
 ## 文档 
 
-[API文档 - Token生成](http://apidoc.roadofcloud.net/#/token)
+[API文档 - Token生成](http://apidoc.vclass.wangsu.com/#/token)
 
 ## 安装
 
@@ -28,7 +28,6 @@ let client = new Client(authKey, secretKey)
 let token = client.getToken(channelName, userId, expireTime)
 console.log(token)
 ```
-或者在 `index.php` 中配置好参数后直接运行 `php index.php` 也可以查看生成的结果。
 
 **参数说明**
 
